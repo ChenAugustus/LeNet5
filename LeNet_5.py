@@ -31,7 +31,7 @@ train_dataset = torchvision.datasets.MNIST(root='data/',
 """
 train=True下载训练集数据，False下载测试集数据,
 download（bool，可选）–如果为true，则从internet下载数据集并将其放在根目录中。
-如果数据集已下载，则不会再次下载,
+如果数据集已下载，则不会再次下载，下载数据时建议科学上网
 transform（可调用，可选）–接受PIL图像并返回已转换版本的函数/转换。
 E、 g，变换。随机裁剪
 """
